@@ -1,155 +1,60 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<title>Neon Particle Background</title>
-
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        background: radial-gradient(circle at top, #020024, #090979, #000);
-        overflow: hidden;
-        height: 100vh;
-        font-family: 'Poppins', sans-serif;
-        color: white;
-    }
-
-    canvas {
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-
-    .content {
-        position: relative;
-        z-index: 10;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 3.5rem;
-        text-shadow: 0 0 20px cyan;
-    }
-
-    p {
-        font-size: 1.3rem;
-        opacity: 0.85;
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>Profil Saya</title>
 </head>
 
 <body>
+    <h1>Website Profil Pribadi</h1>
+    <hr>
+    <h2>Tentang Saya</h2>
+    <p>
+        Halo !! , Nama Saya  <b>Prabowo Subianto</b>
+        Saya Sedang Belajar <i>HTML Dasar </i>menggunakan <u> VS Code Di Ubuntu</u>
+    </p>
+    <h2> Foto Profil</h2>
+    <img src="https://i.pinimg.com/736x/95/87/36/9587361942848bb1f71cd5ebb5e1100b.jpg" alt="Foto Profil Saya" width="200" height="250">
 
-<canvas id="canvas"></canvas>
+    <h2>Hobi Saya</h2>
+    <ul>
+        <li>Nanem Sawit</li>
+        <li>Main Game</li>
+        <li>Baca Teknologi</li>
+    </ul>
+    <h2>Riwayat Pendidikan</h2>
+    <table border="1">
+        <tr>
+            <tr>Tahun</tr>
+            <tr>Sekolah</tr>
+        </tr>
+        <tr>
+            <td>2021 - 2024</td>
+            <td>KMI</td>
+        </tr>
+        <tr>
+            <td>2024 - Sekarang</td>
+            <td>Universitas Darussalam</td>
+        </tr>
+    </table>
+    <h2>hubungi Saya</h2>
+    <form>
+        <label>Nama : </label><br>
+        <input type="text"><br><br>
 
-<div class="content">
-    <h1>NEON PARTICLE 🌌</h1>
-    <p>Interactive • Futuristic • Smooth</p>
-</div>
+        <label>Email : </label><br>
+        <input type="email"><br><br>
+        
+        <label>Pesan : </label><br>
+        <textarea rows="4" cols="50"></textarea><br><br>
 
-<script>
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
-
-canvas.width = innerWidth;
-canvas.height = innerHeight;
-
-window.addEventListener("resize", () => {
-    canvas.width = innerWidth;
-    canvas.height = innerHeight;
-});
-
-const mouse = { x: null, y: null };
-
-window.addEventListener("mousemove", e => {
-    mouse.x = e.x;
-    mouse.y = e.y;
-});
-
-class Particle {
-    constructor() {
-        this.x = Math.random() * canvas.width;
-        this.y = Math.random() * canvas.height;
-        this.size = Math.random() * 2 + 1;
-        this.speedX = Math.random() * 0.6 - 0.3;
-        this.speedY = Math.random() * 0.6 - 0.3;
-    }
-
-    update() {
-        this.x += this.speedX;
-        this.y += this.speedY;
-
-        if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
-        if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
-
-        if (mouse.x) {
-            let dx = mouse.x - this.x;
-            let dy = mouse.y - this.y;
-            let dist = Math.sqrt(dx * dx + dy * dy);
-
-            if (dist < 120) {
-                this.x -= dx / 40;
-                this.y -= dy / 40;
-            }
-        }
-    }
-
-    draw() {
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(0, 255, 255, 0.9)";
-        ctx.shadowBlur = 15;
-        ctx.shadowColor = "cyan";
-        ctx.fill();
-    }
-}
-
-const particles = [];
-for (let i = 0; i < 130; i++) particles.push(new Particle());
-
-function connect() {
-    for (let a = 0; a < particles.length; a++) {
-        for (let b = a; b < particles.length; b++) {
-            let dx = particles[a].x - particles[b].x;
-            let dy = particles[a].y - particles[b].y;
-            let dist = Math.sqrt(dx * dx + dy * dy);
-
-            if (dist < 120) {
-                ctx.strokeStyle = "rgba(0,255,255,0.15)";
-                ctx.lineWidth = 1;
-                ctx.beginPath();
-                ctx.moveTo(particles[a].x, particles[a].y);
-                ctx.lineTo(particles[b].x, particles[b].y);
-                ctx.stroke();
-            }
-        }
-    }
-}
-
-function animate() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    particles.forEach(p => {
-        p.update();
-        p.draw();
-    });
-
-    connect();
-    requestAnimationFrame(animate);
-}
-
-animate();
-</script>
+        <button>Kirim</button>
+    </form>
+    <hr>
+    <p>
+        Kunjungi :
+        <a href="https://www.instagram.com/prabowo_subianto_/">Instagram Saya</a>
+    </p>
 
 </body>
 </html>
