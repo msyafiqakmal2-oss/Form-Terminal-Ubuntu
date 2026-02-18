@@ -5,3 +5,62 @@ And , Im sorry This Repository Nothing Explain like repository others but , afte
 
 **Syafiq**
 *Akmal*
+
+'''html
+<h1>Hello Word</h1>
+'''
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Preview Project](images/preview.png)
+![Preview](https://linkgambar.com/gambar.png)
+
+![Demo](demo.gif)
+
+# 🌌 Neon Portfolio Website
+
+Website portfolio modern dengan efek neon dan animasi interaktif.
+
+![Preview](preview.png)
+
+## ✨ Features
+- 🎨 Modern UI
+- ⚡ Smooth Animation
+- 📱 Responsive Design
+- 🌙 Dark Mode
+
+## 🛠️ Built With
+- HTML5
+- CSS3
+- JavaScript
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/syafiqakmal/neon-portfolio.git
+cd neon-portfolio
+
+
+---
+
+# 🧨 7. Cara Buat README di GitHub
+
+## Cara 1 (Paling Gampang)
+1. Masuk repo GitHub
+2. Klik **Add file**
+3. Klik **Create new file**
+4. Kasih nama:
+5. Isi dengan markdown
+6. Commit
+
+---
+
+## Cara 2 (Lewat Terminal)
+
+```bash
+touch README.md
+nano README.md
+git add README.md
+git commit -m "add README"
+git push
