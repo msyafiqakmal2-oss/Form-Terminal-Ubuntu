@@ -43,13 +43,13 @@ C++ is an extension of the C language, but with additional features such as:
 
 ## Object-Oriented Programming (OOP)
 
-Classes & Objects
+1.Classes & Objects
 
-Encapsulation
+2.Encapsulation
 
-Inheritance
+3.Inheritance
 
-Polymorphism
+4.Polymorphism
 
 In short:
 
