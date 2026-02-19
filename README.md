@@ -44,9 +44,13 @@ C++ is an extension of the C language, but with additional features such as:
 ## Object-Oriented Programming (OOP)
 
 Classes & Objects
+
 Encapsulation
+
 Inheritance
+
 Polymorphism
+
 In short:
 
 C++ is a fast, powerful language used for heavy-duty programs.
