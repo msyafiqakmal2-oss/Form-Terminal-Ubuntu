@@ -1,4 +1,4 @@
-I Try All Language Progamming Anything related with web but in this repository nothing JavaScript And The Next Time I want to study again For Learning Some JavaScript
+   I Try All Language Progamming Anything related with web but in this repository nothing JavaScript And The Next Time I want to study again For Learning Some JavaScript
 This Repository Just For My Experience In Coding Small And From Small to be big project And I want To Learning Again Again
 and honestly i want to learning all of anything related with web , because the first reason for my skill and the next time i can do some job maybee from some office and i can get some income for me
 And , Im sorry This Repository Nothing Explain like repository others but , after this i want to explain to you step by step what i do in this repository
@@ -6,19 +6,14 @@ And , Im sorry This Repository Nothing Explain like repository others but , afte
 **Syafiq**
 *Akmal*
 
-'''html
-<h1>Hello Word</h1>
-'''
-![HTML](https://img.shields.io/badge/HTML-5-orange)
-![CSS](https://img.shields.io/badge/CSS-3-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
-![Preview Project](images/preview.png)
-![Preview](https://linkgambar.com/gambar.png)
+<h1>Coca.html</h1>
 
-![Demo](demo.gif)
+That Something For Learning HTML or Basic from html progammer 
 
-# 🌌 Neon Portfolio Website
+<h1>index.html</h1>
+
+This is Some Website I Make it , but , Just Small project from me and the next time i want to change or i want to make again some website better than now 
 
 Website portfolio modern dengan efek neon dan animasi interaktif.
 
