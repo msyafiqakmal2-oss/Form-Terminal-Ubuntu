@@ -38,21 +38,15 @@ SQL is used to manage database contents. 😅😅
 <h1>luas.cpp</h1>
 
 What is C++ (CPP)?
-
 C++ is a programming language developed by Bjarne Stroustrup in the 1980s.
-
 C++ is an extension of the C language, but with additional features such as:
 
-Object-Oriented Programming (OOP)
+## Object-Oriented Programming (OOP)
 
 Classes & Objects
-
 Encapsulation
-
 Inheritance
-
 Polymorphism
-
 In short:
 
 C++ is a fast, powerful language used for heavy-duty programs.
