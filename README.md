@@ -15,47 +15,23 @@ That Something For Learning HTML or Basic from html progammer
 
 This is Some Website I Make it , but , Just Small project from me and the next time i want to change or i want to make again some website better than now 
 
-Website portfolio modern dengan efek neon dan animasi interaktif.
+<h1>index.php</h1>
 
-![Preview](preview.png)
+PHP is a server-side programming language used to create dynamic websites.
+PHP was first created by Rasmus Lerdorf in 1994.
+The name PHP itself is an acronym for:
 
-## ✨ Features
-- 🎨 Modern UI
-- ⚡ Smooth Animation
-- 📱 Responsive Design
-- 🌙 Dark Mode
+PHP: Hypertext Preprocessor
 
-## 🛠️ Built With
-- HTML5
-- CSS3
-- JavaScript
+This means that PHP processes data before sending web pages to the browser.
 
-## 🚀 Installation
+<h1>latihan.sql</h1>
 
-```bash
-git clone https://github.com/syafiqakmal/neon-portfolio.git
-cd neon-portfolio
+SQL stands for:
+Structured Query Language
 
+SQL is a language used to manage and retrieve data from a database.
 
----
+If we previously discussed PHP for website logic,
+SQL is used to manage database contents.
 
-# 🧨 7. Cara Buat README di GitHub
-
-## Cara 1 (Paling Gampang)
-1. Masuk repo GitHub
-2. Klik **Add file**
-3. Klik **Create new file**
-4. Kasih nama:
-5. Isi dengan markdown
-6. Commit
-
----
-
-## Cara 2 (Lewat Terminal)
-
-```bash
-touch README.md
-nano README.md
-git add README.md
-git commit -m "add README"
-git push
