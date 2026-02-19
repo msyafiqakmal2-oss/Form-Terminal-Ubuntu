@@ -7,7 +7,7 @@ And , Im sorry This Repository Nothing Explain like repository others but , afte
 *Akmal*
 
 
-<h1>Coca.html</h1> 😝😝
+<h1>Coca.html 😝😝</h1> 
 
 That Something For Learning HTML or Basic from html progammer 
 
@@ -15,7 +15,7 @@ That Something For Learning HTML or Basic from html progammer
 
 This is Some Website I Make it , but , Just Small project from me and the next time i want to change or i want to make again some website better than now 
 
-<h1>index.php</h1> ✌🏻✌🏻
+<h1>index.php ✌🏻✌🏻</h1> 
 
 PHP is a server-side programming language used to create dynamic websites.
 PHP was first created by Rasmus Lerdorf in 1994.
