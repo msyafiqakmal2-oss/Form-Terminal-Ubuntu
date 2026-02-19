@@ -25,7 +25,7 @@ PHP: Hypertext Preprocessor
 
 This means that PHP processes data before sending web pages to the browser.
 
-<h1>latihan.sql</h1>
+<h1>latihan.sql 😇😇</h1>
 
 SQL stands for:
 Structured Query Language
@@ -35,7 +35,7 @@ SQL is a language used to manage and retrieve data from a database.
 If we previously discussed PHP for website logic,
 SQL is used to manage database contents. 😅😅
 
-<h1>luas.cpp</h1>
+<h1>luas.cpp 😝😝</h1>
 
 What is C++ (CPP)?
 C++ is a programming language developed by Bjarne Stroustrup in the 1980s.
@@ -54,6 +54,26 @@ C++ is an extension of the C language, but with additional features such as:
 In short:
 
 C++ is a fast, powerful language used for heavy-duty programs.
+
+<h1>style.css 😅😅</h1>
+
+What is CSS?
+CSS stands for:
+Cascading Style Sheets
+
+CSS is a language used to define the appearance (design) of a website.
+
+If:
+
+HTML → Structure
+
+PHP → Logic
+
+SQL → Database
+
+CSS → Appearance/Styling
+
+
 
 
 
